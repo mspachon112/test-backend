@@ -90,14 +90,14 @@ mvn spring-boot:run
 Realiza una petición:
 
 ```http
-POST http://localhost:8081/orders
+POST http://localhost:8080/orders
 ```
 
 **Body:**
 
 ```json
 {
-  "product": "Laptop",
+  "item": "Laptop",
   "quantity": 2
 }
 ```
